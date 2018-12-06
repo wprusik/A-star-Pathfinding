@@ -1,13 +1,13 @@
-# A-star
+# A-star-Pathfinding
 Implementacja algorytmu A* w Javie / The implementation of A-star algorithm in Java
 
 **PL:**
 
-Jest to moja implementacja algorytmu A* - znajdowania najkrótszej œcie¿ki na mapie, z ominiêciem przeszkód.
+Jest to moja implementacja algorytmu A* - znajdowania najkrÃ³tszej Å“cieÂ¿ki na mapie, z ominiÃªciem przeszkÃ³d.
 
-*Przed u¿yciem programu, nale¿y wygenerowaæ mapê za pomoc¹ za³¹czonej aplikacji "map_generator.exe".*
+*Przed uÂ¿yciem programu, naleÂ¿y wygenerowaÃ¦ mapÃª za pomocÂ¹ zaÂ³Â¹czonej aplikacji "map_generator.exe".*
 
-Program wczytuje mapê w postaci tablicy dwuwymiarowej z pliku "grid.txt". *Zera* na mapie odczytywane s¹ jako pola, po których mo¿na siê poruszaæ, *pi¹tki* - jako przeszkody do ominiêcia, a *trójkami* oznaczana jest najkrótsza droga prowadz¹ca z punktu startowego (lewego górnego rogu mapy) do celu (prawego dolnego rogu). Program wykonuje ruchy w górê/dó³ i na boki - ruchy na skos s¹ zabronione. W razie zablokowania drogi do celu przeszkodami, program koñczy swoj¹ pracê komunikatem o braku mo¿liwoœci odnalezienia drogi; w przeciwnym wypadku program wypisuje mapê z zaznaczon¹ drog¹ do celu.
+Program wczytuje mapÃª w postaci tablicy dwuwymiarowej z pliku "grid.txt". *Zera* na mapie odczytywane sÂ¹ jako pola, po ktÃ³rych moÂ¿na siÃª poruszaÃ¦, *piÂ¹tki* - jako przeszkody do ominiÃªcia, a *trÃ³jkami* oznaczana jest najkrÃ³tsza droga prowadzÂ¹ca z punktu startowego (lewego gÃ³rnego rogu mapy) do celu (prawego dolnego rogu). Program wykonuje ruchy w gÃ³rÃª/dÃ³Â³ i na boki - ruchy na skos sÂ¹ zabronione. W razie zablokowania drogi do celu przeszkodami, program koÃ±czy swojÂ¹ pracÃª komunikatem o braku moÂ¿liwoÅ“ci odnalezienia drogi; w przeciwnym wypadku program wypisuje mapÃª z zaznaczonÂ¹ drogÂ¹ do celu.
 
 
 
