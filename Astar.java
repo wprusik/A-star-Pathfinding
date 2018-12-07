@@ -1,4 +1,3 @@
-
 package astar;
 
 import java.io.File;
@@ -146,17 +145,17 @@ public class Astar {
                 tempX = X-1;
                 tempY = Y;
             }
-            if (i==1)
+            else if (i==1)
             {
                 tempX = X+1;
                 tempY = Y;
             }
-            if (i==2)
+            else if (i==2)
             {
                 tempX = X;
                 tempY = Y+1;
             }
-            if (i==3)
+            else if (i==3)
             {
                 tempX = X;
                 tempY = Y-1;
